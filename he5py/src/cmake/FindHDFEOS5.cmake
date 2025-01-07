@@ -1,0 +1,2 @@
+set(HDFEOS5_INCLUDE_DIRS "${CMAKE_PREFIX_PATH}/include")
+set(HDFEOS5_C_LIBRARIES "${CMAKE_PREFIX_PATH}/lib/libhe5_hdfeos.a;${CMAKE_PREFIX_PATH}/lib/libGctp.a")
