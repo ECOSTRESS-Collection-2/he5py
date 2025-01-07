@@ -44,9 +44,9 @@ message("ZLIB_INCLUDE_DIRS: ${ZLIB_INCLUDE_DIRS}")
 message("ZLIB_LIBRARIES: ${ZLIB_LIBRARIES}")
 include_directories(${ZLIB_INCLUDE_DIRS})
 
-# # Pybind11
-# find_package(pybind11 REQUIRED)
-# add_subdirectory(pybind11)
+# Pybind11
+find_package(pybind11 REQUIRED)
+add_subdirectory(pybind11)
 
 # find_package(Python3 REQUIRED)
 # message("Python3_INCLUDE_DIRS: ${Python3_INCLUDE_DIRS}")
